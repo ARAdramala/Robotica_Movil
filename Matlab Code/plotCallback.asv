@@ -1,0 +1,15 @@
+function plotCallback
+    global state
+    global measurements
+
+    state = 4;
+    polarplot(deg2rad(linspace(0, 180, length(measurements))), measurements,...
+        LineWidth = 3)
+    thetalim([0, 180])
+    rl = rlim;
+    if max
+    grid minor
+    title("Distancia [mm]")
+
+    terminateLidar
+end

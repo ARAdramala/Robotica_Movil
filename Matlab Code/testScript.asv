@@ -1,0 +1,28 @@
+
+
+clear all
+IoTLidar
+
+
+
+write(mqttClient, "ConfigCom", "10");
+pause(1)
+write(mqttClient, "DataCom", "1");
+pause(1)
+write(mqttClient, "DataCom", "2");
+pause(1)
+write(mqttClient, "DataCom", "3");
+pause(1)
+write(mqttClient, "DataCom", "4");
+pause(1)
+write(mqttClient, "DataCom", "5");
+pause(1)
+write(mqttClient, "DataCom", "6");
+pause(1)
+write(mqttClient, "DataCom", "7");
+pause(1)
+write(mqttClient, "DataCom", "8");
+pause(1)
+write(mqttClient, "DataCom", "9");
+pause(1)
+write(mqttClient, "DataCom", "10");
